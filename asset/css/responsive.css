@@ -1,0 +1,43 @@
+
+/* mobile table */
+@media (max-width : 1023px){
+ .hide-on-mobile-table  {
+    display: none;
+ }
+
+ .header{
+   position: fixed;
+   z-index: 10;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 68px;
+}
+
+.app__container {
+   margin-top: 15%;
+}
+.header__sort-bar{
+   display: flex;
+
+}
+.gird__row-row{
+   overflow: hidden;
+}
+ 
+}
+
+/* table */
+@media (min-width : 740px) and (max-width : 1023px){
+ .hide-on-table{
+    display: none;
+ }
+}
+
+/* mobile */
+@media (max-width : 739px){
+ .hide-on-mobile{
+    display: none;
+ }
+}
+
